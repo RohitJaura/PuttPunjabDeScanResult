@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Putt Punjab De</title>
+  <style>
+    @font-face {
+      font-family: "GT Walsheim Pro";
+      src: url("font.ttf") format("truetype");
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background-color: #f5f5f5;
+      font-family: "GT Walsheim Pro", -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .zoom-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+
+    .color-palette {
+      background-color: rgb(82, 122, 201);
+      height: 138px;
+      width: 100%;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: white;
+      margin-top: -10px;
+      width: 100%;
+      max-width: 700px;
+      padding: 0 17px 0px;
+      border-radius: 10px 10px 0 0;
+      box-shadow: 1px 6px 30px rgba(0,31,14,0.05);
+    }
+
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 14px solid white;
+      background: white;
+      margin-top: -60px;
+      margin-bottom: 17px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .list-title {
+      color: #131D29;
+      padding-bottom: 17px;
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+      text-align: center;
+      width: 40%;
+      margin-bottom: 0;
+    }
+
+    .list-title h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+
+    .list-title h2 {
+      font-size: 1rem;
+      color: #767C83;
+      padding: 0 27px;
+      font-weight: 400;
+    }
+
+    .links-section {
+      margin: 52px 0 19px;
+      width: 100%;
+    }
+
+    .find-me {
+      font-weight: 500;
+      font-size: 1.25rem;
+      color: #131D29;
+      margin-bottom: 17px;
+    }
+
+    .links-list {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 100%;
+    }
+
+    .link-card {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      cursor: pointer;
+      box-shadow: 1px 6px 30px rgba(0,31,14,0.05);
+      text-decoration: none;
+      border-radius: 4px;
+      transition: opacity 0.15s;
+    }
+
+    .link-card:hover { opacity: 0.9; }
+
+    .link-inner {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 7px;
+      border-radius: 4px;
+    }
+
+    .link-left {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .link-icon img {
+      width: 44px;
+      height: 44px;
+    }
+
+    .link-text p:first-child {
+      font-size: 1.25rem;
+      color: #131D29;
+      font-weight: 500;
+    }
+
+    .link-text p.sublabel {
+      font-size: 0.75rem;
+      color: #767C83;
+    }
+
+    .arrow-icon { width: 24px; margin-left: 8px; flex-shrink: 0; }
+  </style>
+</head>
+<body>
+<div class="zoom-block">
+
+  <div class="color-palette"></div>
+
+  <div class="card">
+
+    <img src="https://qr.scan.page/uploads/links/FRy0CU_63ec3ac2cd34c10b.png" class="profile-img" alt="Putt Punjab De"/>
+
+    <div class="list-title">
+      <h1>Putt Punjab De</h1>
+      <h2>Join The Community</h2>
+    </div>
+
+    <div class="links-section">
+      <p class="find-me">Find me on</p>
+      <div class="links-list">
+
+        <a href="https://www.facebook.com/teamputtpunjabde" target="_blank" class="link-card" rel="noreferrer">
+          <div class="link-inner">
+            <div class="link-left">
+              <div class="link-icon"><img src="https://qr-code.io/themes/altum/assets/images/socialicon/icon2.svg" alt="Facebook"/></div>
+              <div class="link-text"><p>Facebook</p></div>
+            </div>
+            <span class="arrow-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 11.7256C4 11.3459 4.28215 11.0321 4.64823 10.9824L4.75 10.9756H19.75C20.1642 10.9756 20.5 11.3114 20.5 11.7256C20.5 12.1053 20.2178 12.4191 19.8518 12.4687L19.75 12.4756L4.75 12.4756C4.33579 12.4756 4 12.1398 4 11.7256Z" fill="#767C83"/><path d="M13.171 6.23271C12.8775 5.94045 12.8765 5.46558 13.1687 5.17206C13.4344 4.90522 13.851 4.88012 14.1451 5.09734L14.2294 5.16977L20.2794 11.1938C20.547 11.4603 20.5714 11.8784 20.3524 12.1724L20.2794 12.2567L14.2294 18.2817C13.9359 18.574 13.4611 18.573 13.1688 18.2795C12.9031 18.0127 12.8797 17.5959 13.0982 17.3028L13.171 17.2188L18.687 11.7249L13.171 6.23271Z" fill="#767C83"/></svg></span>
+          </div>
+        </a>
+
+        <a href="https://www.instagram.com/puttpunjabde_" target="_blank" class="link-card" rel="noreferrer">
+          <div class="link-inner">
+            <div class="link-left">
+              <div class="link-icon"><img src="https://qr-code.io/themes/altum/assets/images/socialicon/icon20.svg" alt="Instagram"/></div>
+              <div class="link-text"><p>Instagram</p></div>
+            </div>
+            <span class="arrow-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 11.7256C4 11.3459 4.28215 11.0321 4.64823 10.9824L4.75 10.9756H19.75C20.1642 10.9756 20.5 11.3114 20.5 11.7256C20.5 12.1053 20.2178 12.4191 19.8518 12.4687L19.75 12.4756L4.75 12.4756C4.33579 12.4756 4 12.1398 4 11.7256Z" fill="#767C83"/><path d="M13.171 6.23271C12.8775 5.94045 12.8765 5.46558 13.1687 5.17206C13.4344 4.90522 13.851 4.88012 14.1451 5.09734L14.2294 5.16977L20.2794 11.1938C20.547 11.4603 20.5714 11.8784 20.3524 12.1724L20.2794 12.2567L14.2294 18.2817C13.9359 18.574 13.4611 18.573 13.1688 18.2795C12.9031 18.0127 12.8797 17.5959 13.0982 17.3028L13.171 17.2188L18.687 11.7249L13.171 6.23271Z" fill="#767C83"/></svg></span>
+          </div>
+        </a>
+
+        <a href="https://www.youtube.com/@puttpunjabde_" target="_blank" class="link-card" rel="noreferrer">
+          <div class="link-inner">
+            <div class="link-left">
+              <div class="link-icon"><img src="https://qr-code.io/themes/altum/assets/images/socialicon/icon19.svg" alt="YouTube"/></div>
+              <div class="link-text"><p>YouTube</p></div>
+            </div>
+            <span class="arrow-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 11.7256C4 11.3459 4.28215 11.0321 4.64823 10.9824L4.75 10.9756H19.75C20.1642 10.9756 20.5 11.3114 20.5 11.7256C20.5 12.1053 20.2178 12.4191 19.8518 12.4687L19.75 12.4756L4.75 12.4756C4.33579 12.4756 4 12.1398 4 11.7256Z" fill="#767C83"/><path d="M13.171 6.23271C12.8775 5.94045 12.8765 5.46558 13.1687 5.17206C13.4344 4.90522 13.851 4.88012 14.1451 5.09734L14.2294 5.16977L20.2794 11.1938C20.547 11.4603 20.5714 11.8784 20.3524 12.1724L20.2794 12.2567L14.2294 18.2817C13.9359 18.574 13.4611 18.573 13.1688 18.2795C12.9031 18.0127 12.8797 17.5959 13.0982 17.3028L13.171 17.2188L18.687 11.7249L13.171 6.23271Z" fill="#767C83"/></svg></span>
+          </div>
+        </a>
+
+        <a href="https://wa.me/919590310001" target="_blank" class="link-card" rel="noreferrer">
+          <div class="link-inner">
+            <div class="link-left">
+              <div class="link-icon"><img src="https://qr-code.io/themes/altum/assets/images/socialicon/icon22.svg" alt="WhatsApp"/></div>
+              <div class="link-text"><p>WhatsApp</p></div>
+            </div>
+            <span class="arrow-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 11.7256C4 11.3459 4.28215 11.0321 4.64823 10.9824L4.75 10.9756H19.75C20.1642 10.9756 20.5 11.3114 20.5 11.7256C20.5 12.1053 20.2178 12.4191 19.8518 12.4687L19.75 12.4756L4.75 12.4756C4.33579 12.4756 4 12.1398 4 11.7256Z" fill="#767C83"/><path d="M13.171 6.23271C12.8775 5.94045 12.8765 5.46558 13.1687 5.17206C13.4344 4.90522 13.851 4.88012 14.1451 5.09734L14.2294 5.16977L20.2794 11.1938C20.547 11.4603 20.5714 11.8784 20.3524 12.1724L20.2794 12.2567L14.2294 18.2817C13.9359 18.574 13.4611 18.573 13.1688 18.2795C12.9031 18.0127 12.8797 17.5959 13.0982 17.3028L13.171 17.2188L18.687 11.7249L13.171 6.23271Z" fill="#767C83"/></svg></span>
+          </div>
+        </a>
+
+        <a href="https://share.google/RD0QwoeGK6DsCDohb" target="_blank" class="link-card" rel="noreferrer">
+          <div class="link-inner">
+            <div class="link-left">
+              <div class="link-icon"><img src="https://qr-code.io/themes/altum/assets/images/socialicon/icon17.svg" alt="Web"/></div>
+              <div class="link-text">
+                <p>Web</p>
+                <p class="sublabel">Google Map</p>
+              </div>
+            </div>
+            <span class="arrow-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 11.7256C4 11.3459 4.28215 11.0321 4.64823 10.9824L4.75 10.9756H19.75C20.1642 10.9756 20.5 11.3114 20.5 11.7256C20.5 12.1053 20.2178 12.4191 19.8518 12.4687L19.75 12.4756L4.75 12.4756C4.33579 12.4756 4 12.1398 4 11.7256Z" fill="#767C83"/><path d="M13.171 6.23271C12.8775 5.94045 12.8765 5.46558 13.1687 5.17206C13.4344 4.90522 13.851 4.88012 14.1451 5.09734L14.2294 5.16977L20.2794 11.1938C20.547 11.4603 20.5714 11.8784 20.3524 12.1724L20.2794 12.2567L14.2294 18.2817C13.9359 18.574 13.4611 18.573 13.1688 18.2795C12.9031 18.0127 12.8797 17.5959 13.0982 17.3028L13.171 17.2188L18.687 11.7249L13.171 6.23271Z" fill="#767C83"/></svg></span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
