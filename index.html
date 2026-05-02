@@ -148,19 +148,23 @@
 
     .arrow-icon { width: 24px; margin-left: 8px; flex-shrink: 0; }
     .list-title h1,
+.list-title h2 {
+  white-space: nowrap;
+}
+
+.list-title h2 {
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .list-title h1 {
+    font-size: 1.3rem;
+  }
+
   .list-title h2 {
-    white-space: nowrap;
+    font-size: 0.9rem;
   }
-
-  @media (max-width: 768px) {
-    .list-title h1 {
-      font-size: 1.3rem;
-    }
-
-    .list-title h2 {
-      font-size: 0.9rem;
-    }
-  }
+}
   </style>
 </head>
 <body>
